@@ -1,0 +1,126 @@
+Perfect. Here's your updated **GitHub repo scaffold** with the app name: **`Xploitra`**, an AI-powered web app vulnerability scanner.
+
+---
+
+## ✅ Project Name: `Xploitra`
+
+> *"Intelligently uncovering the unseen. Offensive security meets AI."*
+
+---
+
+## 📁 Final Directory Structure
+
+```bash
+Xploitra/
+├── backend/                  # FastAPI backend with scan orchestration
+│   ├── app/
+│   │   ├── api/              # RESTful endpoints (scan, report, user, etc.)
+│   │   ├── core/             # Main engine logic: scanner, spider, etc.
+│   │   ├── models/           # DB models (SQLAlchemy) + Pydantic schemas
+│   │   ├── plugins/          # Pluggable scanners and detection modules
+│   │   ├── utils/            # Encoders, helpers, token manager
+│   │   ├── config.py
+│   │   └── main.py           # Entry point for FastAPI app
+│   ├── requirements.txt
+│   └── Dockerfile
+│
+├── scanner_core/            # Reusable Python scan engine
+│   ├── spider/
+│   ├── passive/
+│   ├── active/
+│   ├── fuzzing/
+│   └── __init__.py
+│
+├── frontend/                # React or Next.js UI for Xploitra
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── hooks/
+│   │   ├── services/         # Axios or Fetch-based API calls
+│   │   ├── store/            # Zustand or Redux
+│   │   └── styles/
+│   ├── tailwind.config.js
+│   └── package.json
+│
+├── plugins/                 # Official and community-developed plugins
+│   ├── auth_capture/
+│   ├── websocket_scanner/
+│   └── README.md
+│
+├── ai/                      # AI-driven modules
+│   ├── prompt_templates/
+│   ├── models/              # Custom fine-tuned models or adapters
+│   ├── agents/              # e.g., PayloadGenAgent, RiskClassifier
+│   └── inference.py
+│
+├── devtools/                # Developer tools and automation
+│   ├── docker-compose.yml
+│   ├── init_cert.sh
+│   └── scripts/
+│       ├── seed_data.py
+│       └── scan_api_test.py
+│
+├── docs/                    # Documentation & research
+│   ├── architecture.md
+│   ├── diagrams/
+│   ├── threats/
+│   └── usage/
+│
+├── tests/                   # Unit and integration test suites
+│   ├── backend/
+│   ├── scanner_core/
+│   └── frontend/
+│
+├── .github/
+│   ├── workflows/           # GitHub Actions CI/CD
+│   ├── ISSUE_TEMPLATE.md
+│   └── PULL_REQUEST_TEMPLATE.md
+│
+├── .env.example             # Sample environment configuration
+├── TODO.md                  # Tasks and roadmap (merged from earlier)
+├── README.md                # Overview and setup instructions
+├── CONTRIBUTING.md          # Guidelines for community contributions
+├── ROADMAP.md               # Vision and development timeline
+└── LICENSE                  # AGPLv3 recommended for SaaS & plugin model
+```
+
+---
+
+### 💡 README.md Teaser
+
+````markdown
+# Xploitra
+
+Xploitra is an AI-powered web application vulnerability scanner that combines dynamic analysis, intelligent fuzzing, and a modern UI to automate reconnaissance, detection, and exploitation workflows—securely and at scale.
+
+- 🔍 Traditional & AJAX Spidering
+- 🛡 Passive & Active Scanning (XSS, SQLi, RCE, etc.)
+- 🧠 LLM-Powered Payload Generation & Risk Triage
+- 🧩 Modular Plugin Architecture
+- 📊 Real-Time Dashboard + Risk Map
+- 🌐 Distributed & Stealth Scan Modes (Red-Team Ready)
+
+> Built for modern security researchers, red teamers, and developers who want deep visibility into their apps.
+
+## Getting Started
+
+```bash
+git clone https://github.com/yourname/xploitra.git
+cd xploitra
+docker-compose up --build
+````
+
+```
+
+---
+
+Would you like the full bootstrap code for:
+- `main.py` (FastAPI app)
+- `scan_engine.py` example in `scanner_core/`
+- Basic React dashboard layout?
+
+Or shall I zip the starter skeleton and prepare a GitHub-ready push structure for you?
+
+Let me know how you’d like to proceed, Muzan.
+```
